@@ -5,8 +5,8 @@ import { number, object, string } from '@hapi/joi';
 type ValueOf<T> = T[keyof T];
 
 export const VERSION = '1.0.0';
-export const REPO_URL = 'https://github.com/ethereum-lists/tokens.git';
-export const OUTPUT_PATH = resolve(tmpdir(), 'ethereum-lists/tokens');
+export const REPO_URL = 'https://github.com/ubiq/tokens.git';
+export const OUTPUT_PATH = resolve(tmpdir(), 'ubiq/tokens');
 
 /**
  * `name` taken from `ethereum-lists/tokens` (https://github.com/ethereum-lists/tokens/tree/master/tokens)
