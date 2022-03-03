@@ -42,7 +42,7 @@ export const run = async (args: string[]): Promise<void> => {
       '--networks <networks>',
       'comma separated list of the networks to parse the tokens for',
       parseNetworks,
-      ['eth']
+      ['ubq']
     )
     .option(
       '-e, --exclude <addresses>',
